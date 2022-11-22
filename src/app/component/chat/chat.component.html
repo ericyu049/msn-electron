@@ -1,0 +1,40 @@
+<div class="container row-align">
+    <div class="profile-pictures column-align">
+        <div class="target row-align">
+            <mat-icon style="padding-right: 10px; padding-top: 5px; color: #9c9c9c">videocam</mat-icon>
+            <div class="profile-frame column-align center">
+                <div class="profile-pic" [style.background]="profilePic"></div>
+            </div>
+        </div>
+        <div class="self row-align">
+            <mat-icon style="padding-right: 10px; padding-top: 5px; color: #9c9c9c">videocam</mat-icon>
+            <div class="profile-frame column-align center">
+                <div class="profile-pic" [style.background]="profilePic"></div>
+            </div>
+        </div>
+    </div>
+    <div class="column-align" style="flex-grow: 1; padding: 15px;">
+        <div class="info-container">
+            <div class="info">
+                <div class="row-align" style="align-items: flex-end; padding-bottom: 10px;">
+                    <span style="font-size: 20pt; padding-right: 15px;">Andrew Yu</span>
+                    <span style="font-size: 10pt;">
+                        ({{status}})
+                    </span>
+                </div>
+                <div>
+                    <span styLe="font-size: 10pt; color: #575757">Custom messages</span>
+                </div>
+            </div>
+        </div>
+        <mat-divider></mat-divider>
+        <div class="chat-container">
+
+        </div>
+        <div class="input-container">
+            <mat-form-field appearance="outline" class="inputbox">
+                <textarea matInput style="height: 100px; resize: none;"></textarea>
+            </mat-form-field>
+        </div>
+    </div>
+</div>

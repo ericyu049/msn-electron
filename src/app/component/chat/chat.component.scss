@@ -1,0 +1,44 @@
+.container {
+    background: linear-gradient(180deg, #3eb5ec, #ffffff50 20% 80%, #c8e7f1);
+    height: 100%;
+    width: 100%;
+    .profile-pictures {
+        justify-content: space-between;
+        padding: 20px 15px;
+        .profile-frame {
+            border: solid 1px #8d8d8d;
+            width: 150px;
+            height: 150px;
+            border-radius: 5px;
+
+            .profile-pic {
+                width: 140px;
+                height: 140px;
+                border: solid 1px #a5a5a5;
+                background-size: cover !important;
+                border-radius: 5px;
+            }
+        }
+    }
+    .info-container {
+        text-shadow: 1px -1px 4px rgb(255, 255, 255);
+        .info {
+            padding-top: 25px;
+            padding-bottom: 15px;
+            flex-grow: 1;
+        }
+    }
+    .chat-container {
+        border: solid 1px rgb(204, 204, 204);
+        flex-grow: 1;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    .input-container {
+        min-height: 150px;
+        padding-top: 10px;
+        .inputbox {
+            width: 100%;
+        }
+    }
+}
